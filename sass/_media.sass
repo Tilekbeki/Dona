@@ -57,16 +57,14 @@
                         width: 100%
         &_img
             margin-left: 0px
-            img
-                width: 370px
-                height:370px
+            // img
+            //     width: 370px
+            //     height:370px
     .HowUse
         &_BlockTwo
             &_Header
                 width: 645px
 @media (max-width: 767px)
-    .elipsThird
-        display: none
     .elipsForth
         display: none
     .MechanicOfAction
@@ -114,7 +112,7 @@
             flex-direction: column
             align-items: flex-start
             &_item:first-child
-                margin-left: -10px
+                margin-left: -16px
     .HowDoesItWork
         &_Block
             flex-direction: column
@@ -123,14 +121,14 @@
         &_img
             display: none
     .ProveBase
-        &_Graphics
-            img:first-child
-                height: 320px
-            img:last-child
-                height: 160px
-        &_TableOneImg
-             img
-                height: 420px
+        // &_Graphics
+        //     img:first-child
+        //         height: 320px
+        //     img:last-child
+        //         height: 160px
+        // &_TableOneImg
+        //      img
+        //         height: 420px
         &_BlockOfIndicators
             flex-direction: column
             &_One
@@ -170,7 +168,7 @@
                 ul
                     li
                         p
-                            font-size: 14px
+                            font-size: 16px
                         img
                             padding-left: 2px
     .HowUse
@@ -204,11 +202,12 @@
                     &_ForWhat
                         text-align:  center
                         width: 100%
-    .introduction_header
-        width: 100%
-        h1
-            font-size: 28px
-            text-align: center
+    .introduction
+        &_header
+            width: 100%
+            h1
+                font-size: 30px
+                text-align: center
     .MechanicOfAction
         &_DonaImg
             width: 390px
@@ -240,29 +239,80 @@
     .HelpsFrom
         &_header
             h2
-                font-size: 28px   
+                text-align: center
+                font-size: 26px   
+        &_DscrSteriotipes
+            p
+                font-size: 16px
+        &_DescrBurnRecomendations
+            p
+                font-size: 16px
+        &_Companies
+            &_item
+                &_text
+                    font-size: 16px
+        &_DescrAdventageHistory
+            p
+                font-size: 16px
+        &_RedBlock
+            padding: 18px
+            p
+                font-size: 16px
+        &_LastDescr
+            p
+                font-size: 16px
+        &_Esceo
+            p
+                font-size: 16px
     .HowDoesItWork
+        &_Header
+            h2
+                font-size: 28px
         &_Dona
             &_Block
                 &_One
                     &_Header
                         width: 100%
+                        left: 50%
+                        transform: translate(-50%)
+                        font-size: 18px
+                        text-align: center
                     &_Content
-                        padding: 60px 2px 20px 2px    
-        &_Dona
-            &_Block
+                        padding: 60px 8px 20px 8px
+                        ul
+                            li
+                                p
+                                    font-size: 16px    
+    
                 &_Two
                     &_Header
+                        text-align: center
+                        font-size: 18px
                         width: 100%
+                        left: 50%
+                        transform: translate(-50%)
                     &_Content
-                        padding: 60px 2px 20px 2px
-        &_Header
-            h2
-                font-size: 24px
+                        padding: 60px 8px 20px 8px
+                        font-size: 16px
+                        ul
+                            li
+                                font-size: 16px
+        &_Block
+            &_Descr
+                p
+                    font-size: 16px
+        &_SecondHeader
+            font-size: 22px
     .WhatsDifference
         &_Header
             h2
                 font-size: 28px
+        &_Descr
+            p
+                font-size: 16px
+            ul
+                li
+                    font-size: 16px
     .MechanicOfAction
         &_Header
             h2
@@ -271,7 +321,16 @@
         &_Header
             h2
                 font-size: 28px  
+        &_FlexContainer
+            .item
+                p
+                    font-size: 18px
     .ProveBase
+        &_Graphics
+            img:first-child
+                height: 220px
+            img:last-child
+                height: 120px
         &_Header
             h2
                 font-size: 28px
@@ -279,22 +338,74 @@
             flex-direction: column
             &_One
                 width: 100%
+                p
+                    font-size: 16px
             &_Two
                 width: 100%
+                p
+                    font-size: 16px
             &_Three
                 width: 100%
             &_Blue
                 &_HelpsDescr
                     font-size: 16px
+        &_TableName
+            font-size: 16px
+        &_TableOneImg
+            img
+                height: 290px
+        &_ImportantText
+            p
+                font-size: 16px
     .HowUse
         &_Header
             h2
                 font-size: 28px
+        &_BlockOne
+            &_Header
+                width: 100%
+                left: 50%
+                transform: translate(-50%)
+                font-size: 16px
+                text-align: center
+            &_Content
+                padding: 40px 10px 40px 10px
+                ul
+                    li
+                        font-size: 14px
+        &_BlockTwo
+            &_Content
+                padding: 40px 10px 40px 10px
+                ul
+                    li
+                        font-size: 14px
+            &_Header
+                width: 100%
+                left: 50%
+                transform: translate(-50%)
+                font-size: 16px
+                text-align: center
+        &_BlockThree
+            &_Content
+                padding: 70px 10px 40px 10px
+                ul
+                    li
+                        font-size: 16px
+                p
+                    font-size: 16px
+            &_Header
+                width: 100%
+                left: 50%
+                transform: translate(-50%)
+                font-size: 18px
+                text-align: center
+
     .ListOfLiterature
         ol
             padding: 40px
             li
-                font-size: 12px
+                font-size: 16px
+    
 @media (max-width:320px)
     .introduction_header
         width: 100%
@@ -305,30 +416,203 @@
         &_header
             h2
                 font-size: 24px   
+        &_DscrSteriotipes
+            p
+                font-size: 14px
+        &_DescrBurnRecomendations
+            p
+                font-size: 14px
+        &_Companies
+            &_item
+                &_text
+                    font-size: 16px
+        &_DescrAdventageHistory
+            p
+                font-size: 14px
+        &_RedBlock
+            padding: 14px
+            img
+                width: 20px
+                height: 20px
+            p
+                padding-left: 10px
+                font-size: 14px
+        &_LastDescr
+            p
+                font-size: 14px
+        &_Esceo
+            p
+                font-size: 14px
     .HowDoesItWork
         &_Header
             h2
-                font-size: 24px
+                font-size: 19px
+        &_Block
+            &_Descr
+                p
+                    font-size: 14px
+        &_SecondHeader
+            font-size: 18px
+        &_Dona
+            padding: 35px 10px 40px 10px
+            &_Block
+                padding-top: 40px
+                &_One
+                    &_Header
+                        font-size: 16px
+                        left: 50%
+                        transform: translate(-50%)
+                        text-align: center
+                    &_Content
+                        padding: 60px 8px 20px 8px
+                        ul
+                            li
+                                p
+                                    font-size: 14px
+                &_Two
+                   
+                    &_Header
+                        width: 100%
+                        min-height: 38px
+                        font-size: 16px
+                        left: 50%
+                        transform: translate(-50%)
+                        text-align: center
+                    &_Content
+                        font-size: 14px
+                        padding: 90px 8px 20px 8px
+                        ul
+                            li
+                                font-size: 14px
+                        p
+                            font-size: 14px
+                        
     .WhatsDifference
         &_Header
             h2
                 font-size: 24px
+        &_Descr  
+            p
+                font-size: 14px
+            ul
+                li
+                    font-size: 14px
+        &_Block
+            &_One
+                p
+                    font-size: 14px
+            &_Two
+                p
+                    font-size: 14px
+
+       
+        
     .MechanicOfAction
+        padding: 40px 0
         &_Header
             h2
-                font-size: 24px   
+                font-size: 24px  
+        &_Block
+            &_One
+                p
+                    font-size: 14px 
+            &_Two
+                p
+                    font-size: 14px
+        &_Descr
+            p
+                font-size: 14px
+    .MainGoalsOfMedicine
+        &_ImportantText
+            &_Text
+                p
+                    font-size: 14px
     .WhatKindOfInfluence
         &_Header
             h2
                 font-size: 24px  
+        &_FlexContainer
+            .item
+                height: 130px
+                width: 100%
+                p
+                    font-size: 14px
+        
     .ProveBase
         &_Header
             h2
                 font-size: 24px
+        &_Block
+            &_One
+                p
+                    font-size: 14px
+            &_Two
+                p
+                    font-size: 14px
+        &_TableName
+            font-size: 14px
+        // &_TableOneImg
+        //     img
+        //         height: 240px
+        &_BlockOfIndicators
+            &_One
+                // img
+                //     height: 246px
+                p
+                    font-size: 16px
+        &_ImportantText
+            padding: 20px
+            p
+                font-size: 14px
+        &_Graphics
+            // img:first-child
+            //     height: 160px
+            // img:last-child
+            //     height: 60px
     .HowUse
+        padding: 40px 0
         &_Header
             h2
                 font-size: 24px
+    
+        &_BlockOne
+            &_Header
+                width: 100%
+                left: 50%
+                transform: translate(-50%)
+                font-size: 16px
+                text-align: center
+            &_Content
+                padding: 90px 10px 40px 10px
+                ul
+                    li
+                        font-size: 14px
+        &_BlockTwo
+            &_Content
+                padding: 90px 10px 40px 10px
+                ul
+                    li
+                        font-size: 14px
+            &_Header
+                width: 100%
+                left: 50%
+                transform: translate(-50%)
+                font-size: 16px
+                text-align: center
+        &_BlockThree
+            &_Content
+                padding: 90px 10px 40px 10px
+                ul
+                    li
+                        font-size: 14px
+                p
+                    font-size: 14px
+            &_Header
+                width: 100%
+                left: 50%
+                transform: translate(-50%)
+                font-size: 16px
+                text-align: center
     .ListOfLiterature
         &_Header
             h2
@@ -337,50 +621,20 @@
             padding: 40px
             li
                 font-size: 12px
-    .HowUse
-
-        &_BlockOne
-            &_Header
-                width: 75%
-                font-size: 18px
-            &_Content
-                padding-top: 90px
-        &_BlockTwo
-            &_Content
-                padding-top: 200px
-            &_Header
-                font-size: 18px
-                width: 90%
-        &_BlockThree
-            &_Content
-                padding-top: 96px
-            &_Header
-                font-size: 18px
-    .HowDoesItWork
-        &_Header
-            h2
-                font-size: 19px
-    .HowDoesItWork
-        &_Dona
-            &_Block
-                &_One
-                    &_Header
-                        width: 100%
-                        min-height: 38px
-                    &_Content
-                        padding: 60px 2px 20px 2px
-                        ul
-                            li
-                                p
-                                    font-size: 14px
-                &_Two
-                    &_Header
-                        width: 100%
-                        min-height: 38px
-                    &_Content
+    footer
+        .footer
+            &_block
+                &_texts
+                    width: 100%
+                    &_ForWhat
                         font-size: 14px
-                        padding: 90px 2px 20px 2px
-                        ul
-                            li
-                                font-size: 14px
-                        
+                        text-align:  center
+                        width: 100%
+                    &_Date
+                        font-size: 14px
+                    address
+                        font-size: 14px
+                &_logo
+                    img
+                        width: 200px
+    

@@ -51,6 +51,7 @@ header
 
             color: #FFFFFF
 .HelpsFrom
+    overflow: hidden
     position: relative
     min-height: 1380px
     width: 100%
@@ -306,6 +307,8 @@ header
     position: relative
     min-height: 755px
     padding: 90px 0 15px 0
+    width: 100%
+    overflow: hidden
     
     .centerContent
         width: 780px
@@ -401,6 +404,9 @@ header
                 top: 176px
                 img
                     height: 246px
+
+
+
             .hiddenLineRoad
                 display: none
         &_Two
@@ -472,7 +478,10 @@ header
         background: #FFFFFF
         border-radius: 20px
         p
-            @include usualText
+            font-family: 'Montserrat'
+            font-style: normal
+            font-size: 16px
+            
             span
                 color: $firstImportantTextColor
                 font-weight: 600
@@ -517,7 +526,7 @@ header
             margin-top: 20px
             img
                 width: 100%
-                height: 371px
+                height: 80%
     &_ImportantText
         width: 630px
         display: flex
@@ -604,6 +613,7 @@ header
 
                 background: #DA102C
             &_HelpsDescr
+                
                 font-family: 'Montserrat'
                 font-style: normal
                 font-weight: 700
@@ -623,7 +633,7 @@ header
         margin-bottom: 38px
         img
             width: 100%
-            height: 575px
+            height: 80%
     &_BlockOfIndicators
         margin-bottom: 45px
         display: flex
@@ -632,7 +642,7 @@ header
             width: 618px
             img
                 width: 100%
-                height: 396px
+                height: 80%
             p
                 padding-top: 30px
                 font-family: 'Montserrat'
@@ -650,7 +660,7 @@ header
                 display: block
                 margin: 0 auto
                 width: 80%
-                height: 395px
+                height: 100%
             p
                 font-family: 'Montserrat'
                 font-style: normal
@@ -680,14 +690,14 @@ header
             color: #DA102C
     &_Graphics
         img:first-child
-            height: 368px
             padding-bottom: 10px
             width: 100%
+            height: 100%
             text-align: center
         img:last-child
-            height: 221px
             padding-bottom: 10px
             width: 100%
+            height: 100%
             text-align: center
 .HowUse
     position: relative

@@ -36,6 +36,7 @@ header {
 }
 
 .HelpsFrom {
+  overflow: hidden;
   position: relative;
   min-height: 1380px;
   width: 100%;
@@ -396,6 +397,8 @@ header {
   position: relative;
   min-height: 755px;
   padding: 90px 0 15px 0;
+  width: 100%;
+  overflow: hidden;
 }
 .WhatsDifference .centerContent {
   width: 780px;
@@ -614,10 +617,7 @@ header {
 .MechanicOfAction_Descr p {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 140%;
-  color: #222222;
+  font-size: 16px;
 }
 .MechanicOfAction_Descr p span {
   color: #DA102C;
@@ -688,7 +688,7 @@ header {
 }
 .MainGoalsOfMedicine_Block_Img img {
   width: 100%;
-  height: 371px;
+  height: 80%;
 }
 .MainGoalsOfMedicine_ImportantText {
   width: 630px;
@@ -852,7 +852,7 @@ header {
 }
 .ProveBase_TableOneImg img {
   width: 100%;
-  height: 575px;
+  height: 80%;
 }
 .ProveBase_BlockOfIndicators {
   margin-bottom: 45px;
@@ -864,7 +864,7 @@ header {
 }
 .ProveBase_BlockOfIndicators_One img {
   width: 100%;
-  height: 396px;
+  height: 80%;
 }
 .ProveBase_BlockOfIndicators_One p {
   padding-top: 30px;
@@ -883,7 +883,7 @@ header {
   display: block;
   margin: 0 auto;
   width: 80%;
-  height: 395px;
+  height: 100%;
 }
 .ProveBase_BlockOfIndicators_Two p {
   font-family: "Montserrat";
@@ -912,15 +912,15 @@ header {
   color: #DA102C;
 }
 .ProveBase_Graphics img:first-child {
-  height: 368px;
   padding-bottom: 10px;
   width: 100%;
+  height: 100%;
   text-align: center;
 }
 .ProveBase_Graphics img:last-child {
-  height: 221px;
   padding-bottom: 10px;
   width: 100%;
+  height: 100%;
   text-align: center;
 }
 
@@ -1243,18 +1243,11 @@ footer .footer_block_logo img {
   .HowDoesItWork_img {
     margin-left: 0px;
   }
-  .HowDoesItWork_img img {
-    width: 370px;
-    height: 370px;
-  }
   .HowUse_BlockTwo_Header {
     width: 645px;
   }
 }
 @media (max-width: 767px) {
-  .elipsThird {
-    display: none;
-  }
   .elipsForth {
     display: none;
   }
@@ -1310,7 +1303,7 @@ footer .footer_block_logo img {
     align-items: flex-start;
   }
   .HelpsFrom_Companies_item:first-child {
-    margin-left: -10px;
+    margin-left: -16px;
   }
   .HowDoesItWork_Block {
     flex-direction: column;
@@ -1320,15 +1313,6 @@ footer .footer_block_logo img {
   }
   .HowDoesItWork_img {
     display: none;
-  }
-  .ProveBase_Graphics img:first-child {
-    height: 320px;
-  }
-  .ProveBase_Graphics img:last-child {
-    height: 160px;
-  }
-  .ProveBase_TableOneImg img {
-    height: 420px;
   }
   .ProveBase_BlockOfIndicators {
     flex-direction: column;
@@ -1376,7 +1360,7 @@ footer .footer_block_logo img {
     width: 100%;
   }
   .MainGoalsOfMedicine_Block_Clauses ul li p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .MainGoalsOfMedicine_Block_Clauses ul li img {
     padding-left: 2px;
@@ -1410,7 +1394,7 @@ footer .footer_block_logo img {
     width: 100%;
   }
   .introduction_header h1 {
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
   }
   .MechanicOfAction_DonaImg {
@@ -1446,31 +1430,92 @@ footer .footer_block_logo img {
     width: 360px;
   }
   .HelpsFrom_header h2 {
+    text-align: center;
+    font-size: 26px;
+  }
+  .HelpsFrom_DscrSteriotipes p {
+    font-size: 16px;
+  }
+  .HelpsFrom_DescrBurnRecomendations p {
+    font-size: 16px;
+  }
+  .HelpsFrom_Companies_item_text {
+    font-size: 16px;
+  }
+  .HelpsFrom_DescrAdventageHistory p {
+    font-size: 16px;
+  }
+  .HelpsFrom_RedBlock {
+    padding: 18px;
+  }
+  .HelpsFrom_RedBlock p {
+    font-size: 16px;
+  }
+  .HelpsFrom_LastDescr p {
+    font-size: 16px;
+  }
+  .HelpsFrom_Esceo p {
+    font-size: 16px;
+  }
+  .HowDoesItWork_Header h2 {
     font-size: 28px;
   }
   .HowDoesItWork_Dona_Block_One_Header {
     width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 18px;
+    text-align: center;
   }
   .HowDoesItWork_Dona_Block_One_Content {
-    padding: 60px 2px 20px 2px;
+    padding: 60px 8px 20px 8px;
+  }
+  .HowDoesItWork_Dona_Block_One_Content ul li p {
+    font-size: 16px;
   }
   .HowDoesItWork_Dona_Block_Two_Header {
+    text-align: center;
+    font-size: 18px;
     width: 100%;
+    left: 50%;
+    transform: translate(-50%);
   }
   .HowDoesItWork_Dona_Block_Two_Content {
-    padding: 60px 2px 20px 2px;
+    padding: 60px 8px 20px 8px;
+    font-size: 16px;
   }
-  .HowDoesItWork_Header h2 {
-    font-size: 24px;
+  .HowDoesItWork_Dona_Block_Two_Content ul li {
+    font-size: 16px;
+  }
+  .HowDoesItWork_Block_Descr p {
+    font-size: 16px;
+  }
+  .HowDoesItWork_SecondHeader {
+    font-size: 22px;
   }
   .WhatsDifference_Header h2 {
     font-size: 28px;
+  }
+  .WhatsDifference_Descr p {
+    font-size: 16px;
+  }
+  .WhatsDifference_Descr ul li {
+    font-size: 16px;
   }
   .MechanicOfAction_Header h2 {
     font-size: 28px;
   }
   .WhatKindOfInfluence_Header h2 {
     font-size: 28px;
+  }
+  .WhatKindOfInfluence_FlexContainer .item p {
+    font-size: 18px;
+  }
+  .ProveBase_Graphics img:first-child {
+    height: 220px;
+  }
+  .ProveBase_Graphics img:last-child {
+    height: 120px;
   }
   .ProveBase_Header h2 {
     font-size: 28px;
@@ -1481,8 +1526,14 @@ footer .footer_block_logo img {
   .ProveBase_Block_One {
     width: 100%;
   }
+  .ProveBase_Block_One p {
+    font-size: 16px;
+  }
   .ProveBase_Block_Two {
     width: 100%;
+  }
+  .ProveBase_Block_Two p {
+    font-size: 16px;
   }
   .ProveBase_Block_Three {
     width: 100%;
@@ -1490,14 +1541,65 @@ footer .footer_block_logo img {
   .ProveBase_Block_Blue_HelpsDescr {
     font-size: 16px;
   }
+  .ProveBase_TableName {
+    font-size: 16px;
+  }
+  .ProveBase_TableOneImg img {
+    height: 290px;
+  }
+  .ProveBase_ImportantText p {
+    font-size: 16px;
+  }
   .HowUse_Header h2 {
     font-size: 28px;
+  }
+  .HowUse_BlockOne_Header {
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 16px;
+    text-align: center;
+  }
+  .HowUse_BlockOne_Content {
+    padding: 40px 10px 40px 10px;
+  }
+  .HowUse_BlockOne_Content ul li {
+    font-size: 14px;
+  }
+  .HowUse_BlockTwo_Content {
+    padding: 40px 10px 40px 10px;
+  }
+  .HowUse_BlockTwo_Content ul li {
+    font-size: 14px;
+  }
+  .HowUse_BlockTwo_Header {
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 16px;
+    text-align: center;
+  }
+  .HowUse_BlockThree_Content {
+    padding: 70px 10px 40px 10px;
+  }
+  .HowUse_BlockThree_Content ul li {
+    font-size: 16px;
+  }
+  .HowUse_BlockThree_Content p {
+    font-size: 16px;
+  }
+  .HowUse_BlockThree_Header {
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 18px;
+    text-align: center;
   }
   .ListOfLiterature ol {
     padding: 40px;
   }
   .ListOfLiterature ol li {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 @media (max-width: 320px) {
@@ -1511,23 +1613,191 @@ footer .footer_block_logo img {
   .HelpsFrom_header h2 {
     font-size: 24px;
   }
+  .HelpsFrom_DscrSteriotipes p {
+    font-size: 14px;
+  }
+  .HelpsFrom_DescrBurnRecomendations p {
+    font-size: 14px;
+  }
+  .HelpsFrom_Companies_item_text {
+    font-size: 16px;
+  }
+  .HelpsFrom_DescrAdventageHistory p {
+    font-size: 14px;
+  }
+  .HelpsFrom_RedBlock {
+    padding: 14px;
+  }
+  .HelpsFrom_RedBlock img {
+    width: 20px;
+    height: 20px;
+  }
+  .HelpsFrom_RedBlock p {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .HelpsFrom_LastDescr p {
+    font-size: 14px;
+  }
+  .HelpsFrom_Esceo p {
+    font-size: 14px;
+  }
   .HowDoesItWork_Header h2 {
-    font-size: 24px;
+    font-size: 19px;
+  }
+  .HowDoesItWork_Block_Descr p {
+    font-size: 14px;
+  }
+  .HowDoesItWork_SecondHeader {
+    font-size: 18px;
+  }
+  .HowDoesItWork_Dona {
+    padding: 35px 10px 40px 10px;
+  }
+  .HowDoesItWork_Dona_Block {
+    padding-top: 40px;
+  }
+  .HowDoesItWork_Dona_Block_One_Header {
+    font-size: 16px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+  }
+  .HowDoesItWork_Dona_Block_One_Content {
+    padding: 60px 8px 20px 8px;
+  }
+  .HowDoesItWork_Dona_Block_One_Content ul li p {
+    font-size: 14px;
+  }
+  .HowDoesItWork_Dona_Block_Two_Header {
+    width: 100%;
+    min-height: 38px;
+    font-size: 16px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+  }
+  .HowDoesItWork_Dona_Block_Two_Content {
+    font-size: 14px;
+    padding: 90px 8px 20px 8px;
+  }
+  .HowDoesItWork_Dona_Block_Two_Content ul li {
+    font-size: 14px;
+  }
+  .HowDoesItWork_Dona_Block_Two_Content p {
+    font-size: 14px;
   }
   .WhatsDifference_Header h2 {
     font-size: 24px;
   }
+  .WhatsDifference_Descr p {
+    font-size: 14px;
+  }
+  .WhatsDifference_Descr ul li {
+    font-size: 14px;
+  }
+  .WhatsDifference_Block_One p {
+    font-size: 14px;
+  }
+  .WhatsDifference_Block_Two p {
+    font-size: 14px;
+  }
+  .MechanicOfAction {
+    padding: 40px 0;
+  }
   .MechanicOfAction_Header h2 {
     font-size: 24px;
+  }
+  .MechanicOfAction_Block_One p {
+    font-size: 14px;
+  }
+  .MechanicOfAction_Block_Two p {
+    font-size: 14px;
+  }
+  .MechanicOfAction_Descr p {
+    font-size: 14px;
+  }
+  .MainGoalsOfMedicine_ImportantText_Text p {
+    font-size: 14px;
   }
   .WhatKindOfInfluence_Header h2 {
     font-size: 24px;
   }
+  .WhatKindOfInfluence_FlexContainer .item {
+    height: 130px;
+    width: 100%;
+  }
+  .WhatKindOfInfluence_FlexContainer .item p {
+    font-size: 14px;
+  }
   .ProveBase_Header h2 {
     font-size: 24px;
   }
+  .ProveBase_Block_One p {
+    font-size: 14px;
+  }
+  .ProveBase_Block_Two p {
+    font-size: 14px;
+  }
+  .ProveBase_TableName {
+    font-size: 14px;
+  }
+  .ProveBase_BlockOfIndicators_One p {
+    font-size: 16px;
+  }
+  .ProveBase_ImportantText {
+    padding: 20px;
+  }
+  .ProveBase_ImportantText p {
+    font-size: 14px;
+  }
+  .HowUse {
+    padding: 40px 0;
+  }
   .HowUse_Header h2 {
     font-size: 24px;
+  }
+  .HowUse_BlockOne_Header {
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 16px;
+    text-align: center;
+  }
+  .HowUse_BlockOne_Content {
+    padding: 90px 10px 40px 10px;
+  }
+  .HowUse_BlockOne_Content ul li {
+    font-size: 14px;
+  }
+  .HowUse_BlockTwo_Content {
+    padding: 90px 10px 40px 10px;
+  }
+  .HowUse_BlockTwo_Content ul li {
+    font-size: 14px;
+  }
+  .HowUse_BlockTwo_Header {
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 16px;
+    text-align: center;
+  }
+  .HowUse_BlockThree_Content {
+    padding: 90px 10px 40px 10px;
+  }
+  .HowUse_BlockThree_Content ul li {
+    font-size: 14px;
+  }
+  .HowUse_BlockThree_Content p {
+    font-size: 14px;
+  }
+  .HowUse_BlockThree_Header {
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 16px;
+    text-align: center;
   }
   .ListOfLiterature_Header h2 {
     font-size: 24px;
@@ -1538,48 +1808,21 @@ footer .footer_block_logo img {
   .ListOfLiterature ol li {
     font-size: 12px;
   }
-  .HowUse_BlockOne_Header {
-    width: 75%;
-    font-size: 18px;
-  }
-  .HowUse_BlockOne_Content {
-    padding-top: 90px;
-  }
-  .HowUse_BlockTwo_Content {
-    padding-top: 200px;
-  }
-  .HowUse_BlockTwo_Header {
-    font-size: 18px;
-    width: 90%;
-  }
-  .HowUse_BlockThree_Content {
-    padding-top: 96px;
-  }
-  .HowUse_BlockThree_Header {
-    font-size: 18px;
-  }
-  .HowDoesItWork_Header h2 {
-    font-size: 19px;
-  }
-  .HowDoesItWork_Dona_Block_One_Header {
+  footer .footer_block_texts {
     width: 100%;
-    min-height: 38px;
   }
-  .HowDoesItWork_Dona_Block_One_Content {
-    padding: 60px 2px 20px 2px;
-  }
-  .HowDoesItWork_Dona_Block_One_Content ul li p {
+  footer .footer_block_texts_ForWhat {
     font-size: 14px;
-  }
-  .HowDoesItWork_Dona_Block_Two_Header {
+    text-align: center;
     width: 100%;
-    min-height: 38px;
   }
-  .HowDoesItWork_Dona_Block_Two_Content {
+  footer .footer_block_texts_Date {
     font-size: 14px;
-    padding: 90px 2px 20px 2px;
   }
-  .HowDoesItWork_Dona_Block_Two_Content ul li {
+  footer .footer_block_texts address {
     font-size: 14px;
+  }
+  footer .footer_block_logo img {
+    width: 200px;
   }
 }
